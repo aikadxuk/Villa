@@ -1,0 +1,268 @@
+/* * {
+    outline: 1px solid red;
+} */
+
+:root {
+    --cor-laranja: rgb(253, 75, 29);
+    --cinza-claro: rgb(250, 250, 250);
+    --cor-cinza: rgb(202, 202, 202);
+    --cor-rose: rgb(255, 238, 231);
+
+}
+
+.orange-text {
+    color: var(--cor-laranja);
+    border-left: 6px solid var(--cor-laranja);
+}
+
+/* Top section */
+
+.social-media-icons-email-section i,
+.social-media-icons-map-section i {
+    color: var(--cor-laranja);
+}
+
+.social-media-icons-links-section i {
+    background: var(--cor-cinza);
+}
+
+.social-media-icons-links-section i:hover {
+    background: var(--cor-laranja);
+}
+
+/* Fim do top section */
+/* Cabeçalho com links */
+header nav a:not(button a) {
+    color: black;
+}
+
+.visit-button button a {
+    color: #fff;
+}
+
+.visit-button {
+    position: relative;
+}
+
+.visit-button i {
+    background: var(--cor-laranja);
+    position: absolute;
+    top: -4px;
+    left: -10px;
+}
+
+header nav a:hover,
+.visit-button a:hover {
+    color: var(--cor-laranja);
+}
+
+/* Fim do header */
+/* Carrossel de imagens */
+
+.carousel-item .carousel-caption span {
+    background: #fff;
+    width: 200px;
+}
+
+.carousel-item .carousel-caption b {
+    color: var(--cor-laranja);
+}
+
+.carousel-item .carousel-caption p {
+    width: 650px;
+}
+
+.carousel .carousel-indicators button {
+    width: 20px;
+    height: 5px;
+    border-radius: 50%;
+    background: var(--cor-laranja);
+}
+
+/* Fim do carrossel */
+/* Seção do accordion */
+
+.section-1 {
+    height: 600px;
+}
+
+.accordion-section .section-1 {
+    position: relative;
+}
+
+.accordion-section .section-1 img:nth-child(2) {
+    background-color: var(--cor-laranja);
+    width: 80px;
+    height: 80px;
+    object-fit: none;
+}
+
+.accordion-section .section-1 img:nth-child(2) {
+    position: absolute;
+    bottom: 75px;
+    left: -30px;
+}
+
+.section-2 h2 {
+    width: 215px;
+}
+
+.accordion {
+    --bs-accordion-btn-bg: var(--cinza-claro);
+    --bs-accordion-bg: var(--cinza-claro);
+    --bs-accordion-active-bg: none;
+    --bs-accordion-active-color: var(--cor-laranja);
+    --bs-accordion-btn-focus-box-shadow: none;
+    --bs-border-radius: 5px;
+}
+
+/* Fim do accordion section */
+/* Começo do video section */
+
+.video-section {
+    height: 1000px;
+}
+
+.video-image {
+    position: relative;
+    height: 500px;
+}
+
+.video-section-main {
+    position: absolute;
+    top: 1738px;
+}
+
+.video-section-main h2 {
+    width: 350px;
+}
+
+.video-section-video {
+    position: relative;
+}
+
+.video-section-video i {
+    color: var(--cor-laranja);
+    background: #fff;
+    border: 10px solid rgba(230, 86, 54, 0.8);
+    position: absolute;
+    bottom: 190px;
+    right: 490px;
+}
+
+.video-info {
+    background: var(--cor-rose);
+    position: relative;
+}
+
+.video-info::after {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: var(--cor-laranja);
+    top: -10px;
+    left: 180px;
+}
+
+.video-info-span-laranja {
+    color: var(--cor-laranja);
+}
+
+.video-info div div span {
+    width: 100px;
+}
+
+/* Fim da seção de vídeos */
+/* Começo dos frames */
+
+.properties-frames {
+    background: var(--cinza-claro);
+}
+
+.frames-section div h2 {
+    width: 400px;
+}
+
+.blackbutton {
+    background: black;
+}
+
+#appartment.orangebutton,
+#villa.orangebutton,
+#penthouse.orangebutton {
+    background: var(--cor-laranja);
+}
+
+
+#properties-images {
+    width: 600px;
+}
+
+.info-paragraph p {
+    width: 300px;
+}
+
+/* Secao de propriedades */
+
+.properties-options div p {
+    width: 380px;
+}
+
+.properties-options-section {
+    background-color: var(--cinza-claro);
+}
+
+.properties-options-section img {
+    width: 350px;
+}
+
+.property-name {
+    background: var(--cor-rose);
+}
+
+.property-value {
+    color: var(--cor-laranja);
+}
+
+.normal-button {
+    background: black;
+}
+
+.normal-button:hover {
+    background: var(--cor-laranja);
+    transition: .3s all ease-in-out;
+}
+
+/* Secao de mapa */
+
+.localization-img {
+    position: relative;
+    height: 1000px;
+}
+
+.localization-map{
+    position: absolute;
+    top: 4700px;
+}
+
+#map {
+    background: red;
+    width: 800px;
+    height: 450px;
+}
+
+.form {
+    width: 450px;
+}
+
+.form div input,
+.form div textarea {
+    background: var(--cinza-claro);
+
+}
+
+.form textarea {
+    width: 400px;
+}

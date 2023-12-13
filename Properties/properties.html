@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/8cd6261252.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <section class="hidden md:flex md:justify-between px-16 py-2 border-b ">
+        <div class="flex gap-6">
+            <span class="border-e pe-4 text-black/50"><i
+                    class="fa-solid fa-envelope pe-4 text-orange-500"></i>info@company.com</span>
+            <span class="text-black/50"><i class="fa-solid fa-map pe-4 text-orange-500"></i>Sunny isles Beach, FL
+                33160</span>
+        </div>
+        <div>
+            <ul class="list-none flex gap-3">
+                <li><a href="#"><i
+                            class="fa-brands fa-facebook bg-gray-400 p-2 rounded-full text-white hover:bg-orange-500"></i></a>
+                </li>
+                <li><a href="#"><i
+                            class="fa-brands fa-twitter bg-gray-400 p-2 rounded-full text-white hover:bg-orange-500"></i></a>
+                </li>
+                <li><a href="#"><i
+                            class="fa-brands fa-linkedin bg-gray-400 p-2 rounded-full text-white hover:bg-orange-500"></i></a>
+                </li>
+                <li><a href="#"><i
+                            class="fa-brands fa-instagram bg-gray-400 p-2 rounded-full text-white hover:bg-orange-500"></i></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <header class="flex items-center justify-between px-16 py-10">
+        <b class="text-5xl uppercase">Villa</b>
+        <nav class="lg:flex gap-6 lg:items-center hidden sm:hidden md:hidden navigation">
+            <a href="../Home/index.html" class="text-black hover:text-orange-500">Home</a>
+            <a href="#" class="text-black hover:text-orange-500">Properties</a>
+            <a href="#" class="text-black hover:text-orange-500">Property Details</a>
+            <a href="#" class="text-black hover:text-orange-500">Contact Us</a>
+            <div class="relative hidden lg:block">
+                <i class="fa-solid fa-calendar bg-orange-500 p-3 rounded-full text-white absolute -bottom-2"></i>
+                <a href="#" class="text-white bg-black rounded-full px-10 py-2 hover:text-orange-500">Schedule a
+                    visit</a>
+            </div>
+        </nav>
+        <div class="block lg:hidden">
+            <i class="fa-solid fa-bars text-3xl block lg:hidden hamburguer-icon"></i>
+        </div>
+    </header>
+    <aside class="flex flex-col items-center relative aside-bg">
+        <img src="images/page-heading-bg.jpg">
+        <div class="flex flex-col items-center md:absolute md:top-14 gap-8 sm:absolute sm:top-20 absolute top-24">
+            <span class="uppercase bg-white px-6 py-2">Home / Properties</span>
+            <h1 class="uppercase text-6xl font-bold text-white">Properties</h1>
+        </div>
+    </aside>
+    <main class="flex flex-col items-center px-16 py-16">
+        <div class="flex lg:flex md:flex sm:flex gap-3 sm:gap-6 py-16 buttons flex-wrap items-center justify-center">
+            <button class="bg-orange-500 px-4 sm:px-6 py-2 rounded-md sm:text-lg font-medium text-white" id="show">Show
+                All</button>
+            <button class="bg-black px-4 sm:px-6 py-2 rounded-md text-lg font-medium text-white hover:text-orange-500"
+                id="appartment">Appartment</button>
+            <button class="bg-black px-4 sm:px-6 py-2 rounded-md text-lg font-medium text-white hover:text-orange-500"
+                id="villa">Villa
+                House</button>
+            <button class="bg-black px-4 sm:px-6 py-2 rounded-md text-lg font-medium text-white hover:text-orange-500"
+                id="penthouse">Penthouse</button>
+        </div>
+        <div class="flex gap-8 lg:flex-row flex-wrap properties flex-col">
+            <section class="bg-gray-100 rounded-md p-5 flex flex-col gap-2">
+                <img src="images/property-01.jpg" class="rounded-md">
+                <div class="flex justify-between items-center">
+                    <span class="bg-red-300 rounded-sm px-3">Luxury Villa</span><span
+                        class="text-2xl text-orange-500 font-medium">$2.264.000</span>
+                </div>
+                <p class="font-bold text-lg">18 Old Street Miami, OR 97219</p>
+                <div class="flex justify-between"><span>Bedrooms: <b>8</b></span><span>Bathrooms: <b>8</b></span>
+                </div>
+                <div class="flex justify-between mb-3"><span>Area: <b>545m2</b></span><span>Floor:
+                        <b>3</b></span><span>Parking: <b>6 spots</b></span>
+                </div>
+                <button class="bg-black rounded-full text-white mx-auto px-5 py-2 hover:bg-orange-500">Schedule a
+                    visit</button>
+            </section>
+            <section class="bg-gray-100 rounded-md p-5 flex flex-col gap-2">
+                <img src="images/property-02.jpg" class="rounded-md">
+                <div class="flex justify-between items-center">
+                    <span class="bg-red-300 rounded-sm px-3">Luxury Villa</span><span
+                        class="text-2xl text-orange-500 font-medium">$1.180.000</span>
+                </div>
+                <p class="font-bold text-lg">54 New Street Florida, OR 27001</p>
+                <div class="flex justify-between"><span>Bedrooms: <b>6</b></span><span>Bathrooms: <b>5</b></span>
+                </div>
+                <div class="flex justify-between mb-3"><span>Area: <b>450m2</b></span><span>Floor:
+                        <b>3</b></span><span>Parking: <b>8 spots</b></span>
+                </div>
+                <button class="bg-black rounded-full text-white mx-auto px-5 py-2 hover:bg-orange-500">Schedule a
+                    visit</button>
+            </section>
+            <section class="bg-gray-100 rounded-md p-5 flex flex-col gap-2">
+                <img src="images/property-03.jpg" class="rounded-md">
+                <div class="flex justify-between items-center">
+                    <span class="bg-red-300 rounded-sm px-3">Luxury Villa</span><span
+                        class="text-2xl text-orange-500 font-medium">$1.460.000</span>
+                </div>
+                <p class="font-bold text-lg">26 Mid Street Portland, OR 38540</p>
+                <div class="flex justify-between"><span>Bedrooms: <b>5</b></span><span>Bathrooms:
+                        <b>4</b></span><span>Area: <b>545m2</b></span></div>
+                <div class="flex justify-between mb-3"><span>Floor: <b>3</b></span><span>Parking: <b>
+                            spots</b></span>
+                </div>
+                <button class="bg-black rounded-full text-white mx-auto px-5 py-2 hover:bg-orange-500">Schedule a
+                    visit</button>
+            </section>
+            <section class="bg-gray-100 rounded-md p-5 flex flex-col gap-2">
+                <img src="images/property-04.jpg" class="rounded-md">
+                <div class="flex justify-between items-center">
+                    <span class="bg-red-300 rounded-sm px-3">Appartment</span><span
+                        class="text-2xl text-orange-500 font-medium">$584.500</span>
+                </div>
+                <p class="font-bold text-lg">12 Hope Street Portland, OR 12650</p>
+                <div class="flex justify-between"><span>Bedrooms: <b>4</b></span><span>Bathrooms:
+                        <b>3</b></span><span>Area: <b>125m2</b></span>
+                </div>
+                <div class="flex justify-between mb-3"><span>Floor:
+                        <b>25th</b></span><span>Parking: <b>2 cars</b></span>
+                </div>
+                <button class="bg-black rounded-full text-white mx-auto px-5 py-2 hover:bg-orange-500">Schedule a
+                    visit</button>
+            </section>
+            <section class="bg-gray-100 rounded-md p-5 flex flex-col gap-2">
+                <img src="images/property-05.jpg" class="rounded-md">
+                <div class="flex justify-between items-center">
+                    <span class="bg-red-300 rounded-sm px-3">Penthouse</span><span
+                        class="text-2xl text-orange-500 font-medium">$925.600</span>
+                </div>
+                <p class="font-bold text-lg">34 Hope Street Portland, OR 42680</p>
+                <div class="flex justify-between"><span>Bedrooms: <b>4</b></span><span>Bathrooms:
+                        <b>4</b></span><span>Area: <b>180m2</b></span>
+                </div>
+                <div class="flex justify-between mb-3"><span>Floor:
+                        <b>38th</b></span><span>Parking: <b>2 cars</b></span>
+                </div>
+                <button class="bg-black rounded-full text-white mx-auto px-5 py-2 hover:bg-orange-500">Schedule a
+                    visit</button>
+            </section>
+            <section class="bg-gray-100 rounded-md p-5 flex flex-col gap-2">
+                <img src="images/property-06.jpg" class="rounded-md">
+                <div class="flex justify-between items-center">
+                    <span class="bg-red-300 rounded-sm px-3">Modern Combo</span><span
+                        class="text-2xl text-orange-500 font-medium">$450.000</span>
+                </div>
+                <p class="font-bold text-lg">22 Hope Street Portland, OR 16540</p>
+                <div class="flex justify-between"><span>Bedrooms: <b>3</b></span><span>Bathrooms:
+                        <b>2</b></span><span>Area: <b>165m2</b></span></div>
+                <div class="flex justify-between mb-3"><span>Floor: <b>26th</b></span><span>Parking: <b>3
+                            cars</b></span>
+                </div>
+                <button class="bg-black rounded-full text-white mx-auto px-5 py-2 hover:bg-orange-500">Schedule a
+                    visit</button>
+            </section>
+            <section class="bg-gray-100 rounded-md p-5 flex flex-col gap-2">
+                <img src="images/property-03.jpg" class="rounded-md">
+                <div class="flex justify-between items-center">
+                    <span class="bg-red-300 rounded-sm px-3">Luxury Villa</span><span
+                        class="text-2xl text-orange-500 font-medium">$980.000</span>
+                </div>
+                <p class="font-bold text-lg">14 Mid Street Miami, OR 36450</p>
+                <div class="flex justify-between"><span>Bedrooms: <b>8</b></span><span>Bathrooms: <b>8</b></span>
+                </div>
+                <div class="flex justify-between mb-3"><span>Area: <b>550m2</b></span><span>Floor:
+                        <b>3</b></span><span>Parking: <b>12 spots</b></span>
+                </div>
+                <button class="bg-black rounded-full text-white mx-auto px-5 py-2 hover:bg-orange-500">Schedule a
+                    visit</button>
+            </section>
+            <section class="bg-gray-100 rounded-md p-5 flex flex-col gap-2">
+                <img src="images/property-02.jpg" class="rounded-md">
+                <div class="flex justify-between items-center">
+                    <span class="bg-red-300 rounded-sm px-3">Luxury Villa</span><span
+                        class="text-2xl text-orange-500 font-medium">$1.520.000</span>
+                </div>
+                <p class="font-bold text-lg">26 Old Street Miami, OR 12870</p>
+                <div class="flex justify-between"><span>Bedrooms: <b>12</b></span><span>Bathrooms: <b>15</b></span>
+                </div>
+                <div class="flex justify-between mb-3"><span>Area: <b>380m2</b></span><span>Floor:
+                        <b>3</b></span><span>Parking: <b>14 spots</b></span>
+                </div>
+                <button class="bg-black rounded-full text-white mx-auto px-5 py-2 hover:bg-orange-500">Schedule a
+                    visit</button>
+            </section>
+            <section class="bg-gray-100 rounded-md p-5 flex flex-col gap-2">
+                <img src="images/property-01.jpg" class="rounded-md">
+                <div class="flex justify-between items-center">
+                    <span class="bg-red-300 rounded-sm px-3">Luxury Villa</span><span
+                        class="text-2xl text-orange-500 font-medium">$3.145.000</span>
+                </div>
+                <p class="font-bold text-lg">34 New Street Miami, OR 24650</p>
+                <div class="flex justify-between"><span>Bedrooms: <b>10</b></span><span>Bathrooms:
+                        <b>12</b></span><span>Area: <b>860m2</b></span></div>
+                <div class="flex justify-between mb-3"><span>Floor: <b>3</b></span><span>Parking: <b>10
+                            spots</b></span>
+                </div>
+                <button class="bg-black rounded-full text-white mx-auto px-5 py-2 hover:bg-orange-500">Schedule a
+                    visit</button>
+            </section>
+        </div>
+    </main>
+    <header class="bg-black py-16 flex flex-col items-center">
+        <p class="text-white text-xs sm:text-sm lg:text-2xl">Copyright &copy; 2048 Villa Agency Co., Ltd. All rights reserved. Design:
+            Templatemo</p>
+    </header>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
