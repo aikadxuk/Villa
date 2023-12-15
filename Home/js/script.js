@@ -20,7 +20,7 @@ function appartmentClick() {
     totalFlat.innerHTML = '185 m2'
     floorNumber.innerHTML = '26th'
     numberRooms.innerHTML = '4'
-    propertiesImages.setAttribute('src', './images/deal-01.jpg')
+    propertiesImages.setAttribute('src', './home/images/deal-01.jpg')
 }
 
 function villaClick() {
@@ -31,7 +31,7 @@ function villaClick() {
     }
     totalFlat.innerHTML = '250 m2'
     numberRooms.innerHTML = '5'
-    propertiesImages.setAttribute('src', './images/deal-02.jpg')
+    propertiesImages.setAttribute('src', './home/images/deal-02.jpg')
 }
 
 function penthouseClick() {
@@ -43,7 +43,7 @@ function penthouseClick() {
     totalFlat.innerHTML = '320 m2'
     floorNumber.innerHTML = '34th'
     numberRooms.innerHTML = '6'
-    propertiesImages.setAttribute('src', './images/deal-03.jpg')
+    propertiesImages.setAttribute('src', './home/images/deal-03.jpg')
 }
 
 // Area de mapa do site
